@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.UsersListTitle h1 {
+  margin: 20px 0;
+  padding: 0 10px;
+}
+.UsersListFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.UsersListFlex div {
+  flex-basis: 33.3333%;
+}
+.UsersListFlexChild {
+  margin: 10px;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-top-left-radius: 20px;
+}
+.HomeInputSection {
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: lightcoral;
+  padding: 30px;
+  border-radius: 5px;
+}
+.HomeInputSection h1 {
+  margin: 10px 0;
+}
+.HomeInputSection input {
+  outline-color: rgb(192, 188, 188);
+}
+.LinkBtnUser {
+  margin: 10px 0;
+  padding: 2px 8px;
+}
